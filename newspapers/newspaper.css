@@ -1,0 +1,27 @@
+body{
+	background-color: #171717ff; 
+}
+
+.center{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%
+}
+
+#nextpage
+{
+margin-left:50%;
+  margin-top:5%;
+  height:40px;
+  width: 5%;
+  padding: 0.5%;
+  text-align:center;
+  font-size:100%;
+  color:#171717ff;
+  background-color:#00d938ff;
+  font-family: 'Source Code Pro', monospace;
+  text-decoration:none;
+
+
+}
