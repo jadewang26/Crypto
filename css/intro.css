@@ -1,1 +1,42 @@
-
+body {
+    background-color: #171717ff;
+    font-family: 'Source Code Pro', monospace;
+}
+h1, h2, h3 {
+    font-family: 'Source Code Pro', monospace;
+    color: #00d938ff;
+}
+#title_div {
+    height: 100%;
+    width: 85%;
+    margin: 5%;
+    border-style: solid;
+    border-color: #00d938ff;
+    padding-left: 5%;
+}
+#title {
+    text-align: left;
+    font-size: 70px;
+    visibility: hidden;
+}
+#subtitle {
+    visibility: hidden;
+    color: white;
+}
+.button:link {
+    background-color: #171717ff;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.button:hover {
+    color:#171717ff;
+    background-color:  white;
+}
+#next_button {
+    display: none;
+    float: right;
+    margin-right: 5%;
+}
