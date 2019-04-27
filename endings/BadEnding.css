@@ -1,0 +1,54 @@
+body{background-color:black;}
+
+.center{
+  text-align:center;
+}
+ 
+h1{
+color:red;
+margin-top: 5%;
+font-family: 'Share Tech Mono', monospace;
+}
+
+.german{color:rgb(243, 82, 82);
+        }
+
+
+h2{
+  color:rgb(243, 82, 82);
+  font-family:'Source Code Pro', monospace;
+}
+
+.audio{color: black;
+        width:0px;
+        }
+
+h5{color: rgb(243, 82, 82);
+font-family:'Source Code Pro', monospace;
+  text-align: center;}
+
+h6{
+  color: yellow;
+  font-family:'Source Code Pro', monospace;
+}
+#informationpage
+{
+  width:20%;
+  padding: 1%;
+  margin-top:5%;
+  text-align:center;
+ margin-left: 45%;
+  font-size:100%;
+  color:#171717ff;
+  background-color:red;
+  font-family: 'Source Code Pro', monospace;
+  text-decoration:none;
+}
+
+a#informationpage:hover{
+  background-color: #171717ff;
+  color: red;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+}
