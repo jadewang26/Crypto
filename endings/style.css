@@ -1,0 +1,91 @@
+body{
+background: url("background.JPG") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Source Code Pro', monospace;
+  }
+
+div{ background-color:rgba(128, 128, 128, 0.877);
+    margin-left:25%;
+    width:50%;}
+
+.audio{
+  width: 0%
+}
+.center{
+  margin:auto;
+  text-align:center;
+    }
+h1{text-align: center;}
+
+h2{color:white;}
+
+h5{color: white;
+text-align:center;}
+
+h6{color:rgba(128, 128, 128, 0.877);}
+
+#informationpage
+{
+  margin:40%;
+  margin-left: 45%;
+  padding: 0.5%;
+  width:20%;
+  margin-top:5%;
+  text-align:center;
+  font-size:100%;
+  color:#171717ff;
+  background-color:#a1a4a8;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #171717ff;
+  font-family: 'Source Code Pro', monospace;
+  text-decoration:none;
+}
+
+a#informationpage:hover{
+  background-color:#a1a4a8;
+  color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+}
+
+/*here's wher ei got the code lol
+  https://codepen.io/cb_rn/pen/OVXXmj*/
+
+.rainbow {
+  
+  text-align:center;
+  -webkit-animation: rainbow 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 5s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: #00d938ff;}
+  25%{color: #213659;}
+  50%{color: #502159}
+  75%{color:#663535}
+  100%{color:rgb(224, 152, 17)}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: #00d938ff;}
+  50%{color: black;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: #00d938ff;}
+  50%{color: black;}
+}
+
