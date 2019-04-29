@@ -1,16 +1,16 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Crypto</title>
-    <link href="mission.css" rel="stylesheet" type="text/css" />
+    <title>Mission 1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
   </head>
   <body onload="typeWriter()">
     <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
-    <script src="mission_1.js"></script>
-    <h1> Mission 1: SOVIET UNION </h1>
+    <script src="script.js"></script>
+    <h1> Mission 1: Soviet Union </h1>
     <iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
     <audio autoplay>
       <source src="typing.mp3" type="audio/mpeg"/>
@@ -18,36 +18,32 @@
       <embed name="Typing" src="typing.mp3" loop="false" hidden="true" autostart="true">
       Your browser does not support the audio element.
     </audio>
-    
-    <p id = "message"> </p>
+    <p id = 'message'> </p>
 <div class = 'navigation'>
-  <a class = 'navigation' href = "https://www.youtube.com/watch?v=U06jlgpMtQs" target="popup" 
-  onclick="window.open('https://www.youtube.com/watch?v=U06jlgpMtQs','popup','width=600,height=600'); return false;"> Cipher Tutorial </a> | <a class = 'navigation' href = "https://www.youtube.com/watch?v=U06jlgpMtQs" target="popup" 
-  onclick="window.open('https://www.youtube.com/watch?v=U06jlgpMtQs','popup','width=600,height=600'); return false;"> Vingere Table </a> | <a class = 'navigation' href = "https://www.youtube.com/watch?v=U06jlgpMtQs" target="popup" 
-  onclick="window.open('https://www.youtube.com/watch?v=U06jlgpMtQs','popup','width=600,height=600'); return false;">Anything else</a>
+  <a class = 'navigation' href = "https://monociphertutorial--birddrawer.repl.co" target="popup"> Cipher Tutorial </a> </a> <p id = "timer"></p>
 </div>
     <div class = "codediv">
-      <p id = "code"> This is the ciphertext1.</p>
-        <form class = "answers">
-          <input type = "text" name = "code1" placeholder = "cleartext1">
-        </form>
+      <p class = "code"> Rjgak</p>
+        <form name = "answers" onsubmit='return checkAnswers()'>
+          <input type = "text" id = "code1" placeholder = "Type answers">
+        
     </div>
     <div class = "codediv">
-      <p id = "code"> This is the ciphertext2.</p>
-        <form class = "answers">
-          <input type = "text" name = "code1" placeholder = "cleartext2">
-        </form>
+      <p class = "code">ewxefyt rylykxh kakyxyyk xhatxb kaky</p>
+          <input type = "text" id = "code2" placeholder = "Type answers">
+        
     </div>
     <div class = "codediv">
-      <p id = "code"> This is the ciphertext3.</p>
-        <form class = "answers">
-          <input type = "text" name = "code1" placeholder = "cleartext3">
+      <p class = "code">gk aklgraek otei xhy ygrxytk fetmyt</p>
+          <input type = "text" id = "code3" placeholder = "Type answers">
+
+          <input type = 'submit' value = 'Check Answers' >
+        
         </form> 
-        <button type = 'button'> Check Code </button>
     </div>
-    <a href = 'https://www.youtube.com/watch?v=U06jlgpMtQs' class = 'next'>
+    <a href = 'https://MIssion2--birddrawer.repl.co' id = 'next'>
       Next Mission
     </a>
-    
+    <script src="script.js"></script>
   </body>
 </html>
