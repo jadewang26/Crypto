@@ -1,0 +1,23 @@
+body{
+  background-color: #171717ff;
+  color: #00d938ff;
+  font-family: 'Source Code Pro', monospace;
+  margin: 3%;
+  font-size: 150%;
+  text-align:center;
+}
+
+p{
+  color:white;
+  text-align:center;
+}
+
+table, th, td {
+  border: 1px solid #00d938ff;
+  border-collapse: collapse;
+  margin:auto;
+}
+th, td {
+  padding:5px;
+  text-align:center;
+}
