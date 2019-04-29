@@ -1,0 +1,17 @@
+body { 
+  background-color: #171717ff; 
+  padding: 2%;
+}
+p { 
+  color: #00d938ff ; 
+}   
+p.serif {
+  font-family: "Courier new", courier , serif; 
+}
+p, h1, h2, h3 { 
+  color: #00d938ff ; 
+  font-family: 'Source Code Pro', monospace;
+}   
+img {
+  padding: 15px;
+}
