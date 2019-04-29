@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Vernam/Lorenz Cipher</title>
+    <link href="tutorial.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Vernam's Cipher</h1>
+    <script src="script.js"></script>
+    <p>Vernam's cipher (used for the Lorenz machine) uses a keyword, like the vingere, but uses a different decoding and encoding method. Each letter or symbol (including spaces) in the cleartext and keyword is converted to a 6 digit binary number, and the keyword is repeated to fit the length of the cleartext. For example, the word "hi" with a keyword of "b" would become the following. <br>
+    000111001000 (hi)<br>
+    000001000001 (bb)<br>
+    Then, an XOR operation is peformed on them. XOR returns 1 if both letters are the different, and 1 if they are the same. The above code would become: <br>
+    000110001001 (gj)<br>
+    To decrypt, the XOR operator is performed between the final text and key. <br>
+    000110001001 (gj)<br>
+    000001000001 (bb)<br>
+    is<br>
+    000111001000 (hi)<br>
+    The following binary numbers are used:
+    <table>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+        <td>g</td>
+        <td>h</td>
+        <td>i</td>
+        <td>j</td>
+      </tr>
+        <td>000000</td>
+        <td>000001</td>
+        <td>000010</td>
+        <td>000011</td>
+        <td>000100</td>
+        <td>000101</td>
+        <td>000110</td>
+        <td>000111</td>
+        <td>001000</td>
+        <td>001001</td>
+      </tr>
+    </table>
+    <br>
+
+    <table>
+      <tr>
+        <td>k</td>
+        <td>l</td>
+        <td>m</td>
+        <td>n</td>
+        <td>o</td>
+        <td>p</td>
+        <td>q</td>
+        <td>r</td>
+        <td>s</td>
+        <td>t</td>
+      </tr>
+      <tr>
+        <td>001010</td>
+        <td>001011</td>
+        <td>001100</td>
+        <td>001101</td>
+        <td>001110</td>
+        <td>001111</td>
+        <td>010000</td>
+        <td>010001</td>
+        <td>010010</td>
+        <td>010011</td>
+      </tr>
+    </table>
+    <table> <br>
+      <tr>
+        <td>u</td>
+        <td>v</td>
+        <td>w</td>
+        <td>x</td>
+        <td>y</td>
+        <td>z</td>
+        <td>space</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>010100</td>
+        <td>010101</td>
+        <td>010110</td>
+        <td>010111</td>
+        <td>011000</td>
+        <td>011001</td>
+        <td>011010</td>
+        <td>011011</td>
+        <td>011100</td>
+        <td>011101</td>
+      </tr>
+    </table> <br>
+    <table>
+      <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>0</td>
+        <td>.</td>
+        <td>,</td>
+        <td>?</td>
+      </tr>
+      <tr>
+        <td>011110</td>
+        <td>011111</td>
+        <td>100000</td>
+        <td>100001</td>
+        <td>100010</td>
+        <td>100011</td>
+        <td>100100</td>
+        <td>100101</td>
+        <td>100110</td>
+        <td>100111</td>
+      </tr>
+    </table> <br>
+    <table>
+      <tr>
+        <td>!</td>
+        <td>@</td>
+        <td>#</td>
+        <td>$</td>
+        <td>%</td>
+        <td>^</td>
+        <td>&</td>
+        <td>*</td>
+        <td>(</td>
+        <td>)</td>
+      </tr>
+      <tr>
+        <td>101000</td>
+        <td>101001</td>
+        <td>101010</td>
+        <td>101011</td>
+        <td>101100</td>
+        <td>101101</td>
+        <td>101110</td>
+        <td>101111</td>
+        <td>110000</td>
+        <td>110001</td>
+      </tr>
+    </table>  <br>
+    <table>
+      <tr>
+        <td>/</td>
+        <td>\</td>
+        <td>|</td>
+        <td>[</td>
+        <td>]</td>
+        <td>{</td>
+        <td>}</td>
+        <td><</td>
+        <td>></td>
+        <td>~</td>
+      </tr>
+      <tr>
+        <td>110010</td>
+        <td>110011</td>
+        <td>110100</td>
+        <td>110101</td>
+        <td>110110</td>
+        <td>110111</td>
+        <td>111000</td>
+        <td>111001</td>
+        <td>111010</td>
+        <td>111011</td>
+      </tr>
+    </table>
+    <table> <br>
+      <tr>
+        <td>`</td>
+        <td>:</td>
+        <td>;</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>111100</td>
+        <td>111101</td>
+        <td>111110</td>
+        <td>111111</td>
+      </tr>
+    </table>
+  </body>
+</html>
