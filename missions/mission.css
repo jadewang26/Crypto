@@ -56,6 +56,17 @@ input:focus{
   float:right;
 }
 
+#next{
+  color:#171717ff;
+  background-color:#00d938ff;
+  width:20%;
+  margin: 3%;
+  padding: 1% 1%;
+  text-align: center;
+  overflow:hidden;
+  float:right;
+}
+
 a{
   text-decoration: none;
 }
