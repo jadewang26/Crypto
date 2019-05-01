@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Monoalphabetic Cipher</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1>Affine Cipher</h1>
+    <p>Each letter in the alphabet is assigned a number, with a being 0 and z being 25. Also, the mathematical operation mod is basically giving the remainder of dividing a number by another number.<br> This isn't important for this game, but for every alphabet in the plaintext, the following operation is performed: ax+b(mod 26) with x representing the letter's number and a being coprime with 26.<br> <br><strong>To decrypt: </strong>The formula for decription is the <br><mark> a<sup>-1</sup>(x-b) mod 26 </mark><br> a<sup>-1</sup> is the multiplicative inverse of a mod 26. Basically, a*a<sup>-1</sup> (mod 26) is 1. A table of all the multiplicative inverses are below.</p> 
+    <table>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+        <td>g</td>
+        <td>h</td>
+        <td>i</td>
+        <td>j</td>
+        <td>k</td>
+        <td>l</td>
+        <td>m</td>
+        <td>n</td>
+        <td>o</td>
+        <td>p</td>
+        <td>q</td>
+        <td>r</td>
+        <td>s</td>
+        <td>t</td>
+        <td>u</td>
+        <td>v</td>
+        <td>w</td>
+        <td>x</td>
+        <td>y</td>
+        <td>z</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+      </tr>
+    </table>
+    <br>
+    <table>
+      <tr>
+        <td>a</td>
+        <td>1</td>
+        <td>3</td>
+        <td>5</td>
+        <td>7</td>
+        <td>9</td>
+        <td>11</td>
+        <td>15</td>
+        <td>17</td>
+        <td>19</td>
+        <td>21</td>
+        <td>23</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>a<sup>-1</sup></td>
+        <td>1</td>
+        <td>9</td>
+        <td>21</td>
+        <td>15</td>
+        <td>3</td>
+        <td>19</td>
+        <td>7</td>
+        <td>23</td>
+        <td>11</td>
+        <td>5</td>
+        <td>17</td>
+        <td>25</td>
+      </tr>
+    </table>
+  </body>
+</html>
