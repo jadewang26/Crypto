@@ -113,7 +113,7 @@ function checkAnswers(){
     var stopTimer = false;
     return false;
   }
-    showNext();
+    location.replace("GoodEndings.html");
     var stopTimer = true;
     return false;
     
@@ -121,7 +121,7 @@ function checkAnswers(){
 }
 
 function lose() {
-  location.replace("https://bad-ending-with-css-changes--birddrawer.repl.co")
+  location.replace("BadEnding.html")
 }
 
 clearTimeout(); 
