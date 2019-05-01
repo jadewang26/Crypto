@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Vigenère Cipher</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1>Vigenère Cipher</h1>
+    <p>In the Vigenère Cipher, there is a keyword that is given. That keyword is the base of the code; in the grid below, there is an alphabet on both the horizontal and vertical axis, and the letters in the middle are the coded letters.</p> 
+       <img src= "http://bestcodes.weebly.com/uploads/2/0/1/9/20195317/3451906_orig.png" width="600" height="500">
+       
+       <p> If there is the word, “MUG” and the keyword is “HAT” then in order to code using the Vigenère Cipher, you would first start with the “M” from “MUG.” You would find “M” on the horizontal axis. Then, you would take the first letter of “HAT” which is “H,” and you would find it on the vertical axis. Where the two rows/columns meet is the first letter, which if “T” in this case. </p>
+         <img src="https://pages.mtu.edu/~shene/NSF-4/Tutorial/VIG/FIG-VIG-Table-EX-M.jpg" width="700" height="500">
+
+          <p> You can continue doing this with the rest of "MUG" to get, “TUZ” as the encrypted word.</p> 
+   
+ <body>
+</html>
