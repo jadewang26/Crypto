@@ -113,7 +113,7 @@ function checkAnswers(){
     var stopTimer = false;
     return false;
   }
-    location.replace("../endings/GoodEndings.html");
+    showNext();
     var stopTimer = true;
     return false;
     
@@ -121,48 +121,5 @@ function checkAnswers(){
 }
 
 function lose() {
-  location.replace("../endings/BadEnding.html")
+  location.replace("https://bad-ending-with-css-changes--birddrawer.repl.co")
 }
-
-clearTimeout(); 
-x = 1200; 
-function addTime(){
-  var titleText = document.getElementById("timer");
-  var text = titleText.innerHTML;
-  var curText = "";
-  x--
-  var s = x%60; 
-  if(s<10){
-    var seconds = '0'+s
-  }
-  else{
-    var seconds = s; 
-  }
-  var m = x/60; 
-  var minutes = Math.floor(m); 
-
-  if (stopTimer == true){
-    console.log(minutes + ':'+seconds); 
-    curText = (minutes + ':'+seconds);
-    titleText.innerHTML = curText;
-    return false;
-  }
-
-  else if(x<=0){
-    console.log('HAHA LOSER UR MOM DOESNT LOVE U' );
-    curText = '0:00';
-    titleText.innerHTML = curText; 
-    document.getElementById("timer").style.color ='#e60000';
-    lose();
-    return false;
-  }
-  
-  else{
-    console.log(minutes + ':'+seconds); 
-    curText = (minutes + ':'+seconds);
-    titleText.innerHTML = curText;
-    console.log(stopTimer);
-  }
-}
-setInterval(addTime, 1000); 
-
