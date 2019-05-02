@@ -113,7 +113,7 @@ function checkAnswers(){
     var stopTimer = false;
     return false;
   }
-    location.replace("GoodEndings.html");
+    location.replace("../endings/GoodEndings.html");
     var stopTimer = true;
     return false;
     
@@ -121,7 +121,7 @@ function checkAnswers(){
 }
 
 function lose() {
-  location.replace("BadEnding.html")
+  location.replace("../endings/BadEnding.html")
 }
 
 clearTimeout(); 
