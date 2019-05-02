@@ -5,6 +5,15 @@ body{
   margin: 3%;
   font-size: 150%;
 }
+
+#timer{
+  color:#00d938ff;
+  border-style:solid;
+  border-color:#00d938ff;
+  padding:1%;
+  border-width: 2px;
+}
+
 #message{
   color:white;
   margin: 8%;
@@ -14,9 +23,10 @@ body{
   border-style:solid;
   border-width: 2px;
   border-color: white;
+
 }
 
-#code{
+.code{
   color: #00d938ff;
   padding: 1% 1%;
   margin-top: 3%;
@@ -45,17 +55,6 @@ input:focus{
   border-color: white;
 }
 
-.next{
-  color:#171717ff;
-  background-color:#00d938ff;
-  width:20%;
-  margin: 3%;
-  padding: 1% 1%;
-  text-align: center;
-  overflow:hidden;
-  float:right;
-}
-
 #next{
   color:#171717ff;
   background-color:#00d938ff;
@@ -72,7 +71,7 @@ a{
   text-decoration: none;
 }
 
-button{
+/* button{
   margin-top: 3%;
   padding: 0.5%;
   font-size:100%;
@@ -84,9 +83,9 @@ button{
 button:hover{
   color:white;
   background-color:#171717ff;
-}
+} */
 
-a.next:hover{
+a#next:hover{
   background-color: #171717ff;
   color:#00d938ff;
   border-style: solid;
@@ -110,4 +109,31 @@ a.navigation:hover{
 mark{
   color:#00d938ff;
   background-color: #171717ff;
+}
+
+input[type = 'submit']{
+  background-color:#171717ff;
+  color:white;
+  padding:1%;
+  margin:3%;
+  margin-left:0%;
+  text-decoration: none;
+  font-size:100%;
+  font-family: 'Source Code Pro', monospace;
+  border: solid;
+  border-width:2px;
+  border-color:white;
+}
+
+input[type = 'submit']:hover{
+  background-color:white;
+  color:black;
+}
+
+#code1{
+}
+
+#code2{}
+
+#code3{
 }
