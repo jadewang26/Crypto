@@ -98,7 +98,7 @@ function checkClicked(){
 		}
 	}
 	console.log("correct: " + correct);
-	if (correct == 63) {
+	if (correct == 62) {
 		showNext();
 	}
 }
