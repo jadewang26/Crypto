@@ -4,11 +4,12 @@ body {
 }
 p { 
   color: white;
+  font-family: 'Source Code Pro', monospace;
 }   
 p.serif {
   font-family: "Courier new", courier , serif; 
 }
-p, h1, h2, h3 { 
+h1, h2, h3 { 
   color: #00d938ff ; 
   font-family: 'Source Code Pro', monospace;
 }   
