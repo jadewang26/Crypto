@@ -94,3 +94,21 @@ a#next:hover{
   border-width: 2px;
   border-color:#00d938ff;
 }
+input[type = 'submit']{
+  background-color:#171717ff;
+  color:white;
+  padding:1%;
+  margin:3%;
+  margin-left:0%;
+  text-decoration: none;
+  font-size:100%;
+  font-family: 'Source Code Pro', monospace;
+  border: solid;
+  border-width:2px;
+  border-color:white;
+}
+
+input[type = 'submit']:hover{
+  background-color:white;
+  color:black;
+}
