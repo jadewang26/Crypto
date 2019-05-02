@@ -10,7 +10,14 @@
   </head>
   <body onload="typeWriter()">
     <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+    <script src="Mission4.js"></script>
     <h1> Mission 4: Japan </h1>
+    <iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+    <audio autoplay>
+      <source src="typing.mp3" type="audio/mpeg"/>
+      <embed name="Typing" src="typing.mp3" loop="false" hidden="true" autostart="true">
+      Your browser does not support the audio element.
+    </audio>
     <p id = "message"> </p>
 <div class = 'navigation'>
   <a class = 'navigation' href = "../tutorials/VigenèreCipherTutorial.html" target="_blank"> Cipher Tutorial </a> </a> <p id = "timer"></p>
@@ -37,6 +44,5 @@
     <a href = 'Mission5.html' id = 'next'>
       Next Mission
     </a>
-    <script src="Mission4.js"></script>
   </body>
 </html>
