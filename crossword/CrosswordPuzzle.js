@@ -92,7 +92,7 @@ function checkClicked(){
 					
 				}else{
 					selectedInputTextElement.style.backgroundColor = "#00d938ff";
-					document.getElementById("selectedInputTextElement").disabled = true;
+					document.getElementById(selectedInputTextElement).disabled = true;
 					correct++;
 				}
 			}
