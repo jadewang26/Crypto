@@ -79,20 +79,17 @@ function clearAllClicked(){
 //Check button
 function checkClicked(){
 	var correct = 0;
-	console.log(puzzleArrayData.length);
-	console.log(puzzleArrayData[0].length);
-	for ( var i = 0; i < puzzleArrayData.length ; i++ ) {
+	for (var i = 0; i < puzzleArrayData.length ; i++ ) {
 		var rowData = puzzleArrayData[i];
-		for(var j = 0 ; j < rowData.length ; j++){
-			if(rowData[j] != 0){
+		for (var j = 0 ; j < rowData.length ; j++){
+			if(rowData[j] != 0) {
 				var selectedInputTextElement = document.getElementById('txt' + '_' + i + '_' + j);
-				upperCaseData = selectedInputTextElement.value.toUpperCase();
-				if(upperCaseData != puzzleArrayData[i][j]){
-					selectedInputTextElement.style.backgroundColor = '#e60000';
-					
-				}else{
+				if(selectedInputTextElement.value.toUpperCase() != puzzleArrayData[i][j]){
+					selectedInputTextElement.style.backgroundColor = '#171717ff;';
+				} else{
 					selectedInputTextElement.style.backgroundColor = "#00d938ff";
-					document.getElementById(selectedInputTextElement).disabled = true;
+					console.log("i: " + i + ", j: " + j);
+					selectedInputTextElement.disabled = true;
 					correct++;
 				}
 			}
