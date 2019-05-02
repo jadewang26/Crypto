@@ -84,10 +84,10 @@ function checkClicked(){
 	for ( var i = 0; i < puzzleArrayData.length ; i++ ) {
 		var rowData = puzzleArrayData[i];
 		for(var j = 0 ; j < rowData.length ; j++){
-			if(rowData[j].toUpperCase() != 0){
+			if(rowData[j] != 0){
 				var selectedInputTextElement = document.getElementById('txt' + '_' + i + '_' + j);
-				
-				if(selectedInputTextElement.value != puzzleArrayData[i][j]){
+				upperCaseData = selectedInputTextElement.value.toUpperCase();
+				if(upperCaseData != puzzleArrayData[i][j]){
 					selectedInputTextElement.style.backgroundColor = '#e60000';
 					
 				}else{
