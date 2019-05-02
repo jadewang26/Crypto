@@ -84,7 +84,7 @@ td{
   /*visibility:hidden;*/
 }
 a#next:hover{
-  background-color:white;
+  background-color:#171717ff;
   color:#00d938ff;
   border-style: solid;
   border-width: 2px;
