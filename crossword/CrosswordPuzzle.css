@@ -53,6 +53,7 @@ td{
 	height:40px;
 	border: 5px solid #00d938ff;;
 	text-align: center;
+	font-family: "Source Code Pro", monospace;
 }
 #hintsTable{
 	width: 480px;
