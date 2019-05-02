@@ -113,3 +113,9 @@ input[type = 'submit']:hover{
   background-color:white;
   color:black;
 }
+
+table{
+	font-family: "Source Code Pro", monospace;
+	font-color: white;
+	background-color:#171717ff;
+}
