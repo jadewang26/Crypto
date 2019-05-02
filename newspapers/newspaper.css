@@ -25,3 +25,8 @@ margin-left:50%;
 
 
 }
+
+#nextpage:hover{
+	background-color:#171717ff;
+	color:#00d938ff;
+}
