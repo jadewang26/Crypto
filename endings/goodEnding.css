@@ -88,4 +88,10 @@ a#informationpage:hover{
   0%{color: #00d938ff;}
   50%{color: black;}
 }
-
+@keyframes rainbow{
+0%{color: #00d938ff;}
+  25%{color: #213659;}
+  50%{color: #502159}
+  75%{color:#663535}
+  100%{color:rgb(224, 152, 17)}
+}
