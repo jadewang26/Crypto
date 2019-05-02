@@ -1,6 +1,6 @@
 
 //Globals
-var x	;
+var x;
 var puzzleArrayData;
 //Loads the Crossword
 function initializeScreen(){
@@ -16,7 +16,7 @@ function initializeScreen(){
 				cell.innerHTML = '<input type="text" class="inputBox" maxlength="1" style="text-transform: uppercase" ' + 'id="' + txtID + '" onfocus="textInputFocus(' + "'" + txtID + "'"+ ')">';
 
 			}else{
-				cell.style.backgroundColor  = "black";
+				cell.style.backgroundColor  = "#171717ff;";
 			}
 		}
 	}
@@ -78,6 +78,9 @@ function clearAllClicked(){
 }
 //Check button
 function checkClicked(){
+	var correct = 0;
+	console.log(puzzleArrayData.length);
+	console.log(puzzleArrayData[0].length);
 	for ( var i = 0; i < puzzleArrayData.length ; i++ ) {
 		var rowData = puzzleArrayData[i];
 		for(var j = 0 ; j < rowData.length ; j++){
@@ -85,16 +88,18 @@ function checkClicked(){
 				var selectedInputTextElement = document.getElementById('txt' + '_' + i + '_' + j);
 				
 				if(selectedInputTextElement.value != puzzleArrayData[i][j]){
-					selectedInputTextElement.style.backgroundColor = 'gray';
+					//selectedInputTextElement.style.backgroundColor = 'white';
 					
 				}else{
-					selectedInputTextElement.style.backgroundColor = 'green';
-          correct++;
+					selectedInputTextElement.style.backgroundColor = "#00d938ff";
+					correct++;
 				}
 			}
 		}
-     if (correct === 400) {
-    showNext();}
+	}
+	console.log("correct: " + correct);
+	if (correct === 63) {
+		showNext();
 	}
 }
 //Clue Button
