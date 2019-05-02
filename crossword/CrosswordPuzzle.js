@@ -88,10 +88,11 @@ function checkClicked(){
 				var selectedInputTextElement = document.getElementById('txt' + '_' + i + '_' + j);
 				
 				if(selectedInputTextElement.value != puzzleArrayData[i][j]){
-					//selectedInputTextElement.style.backgroundColor = 'white';
+					selectedInputTextElement.style.backgroundColor = '#e60000';
 					
 				}else{
 					selectedInputTextElement.style.backgroundColor = "#00d938ff";
+					document.getElementById("selectedInputTextElement").disabled = true;
 					correct++;
 				}
 			}
