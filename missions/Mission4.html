@@ -10,18 +10,18 @@
   </head>
   <body onload="typeWriter()">
     <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
-    <script src="Mission4.js"></script>
     <h1> Mission 4: Japan </h1>
-    <iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-    <audio autoplay>
-      <source src="typing.mp3" type="audio/mpeg"/>
-      <embed name="Typing" src="typing.mp3" loop="false" hidden="true" autostart="true">
-      Your browser does not support the audio element.
-    </audio>
     <p id = "message"> </p>
 <div class = 'navigation'>
-  <a class = 'navigation' href = "../tutorials/VigenèreCipherTutorial.html" target="_blank"> Cipher Tutorial </a> </a> <p id = "timer"></p>
+  <a id="showChart" class="navigation" onclick="showChart()">Show Vigenere Chart</a>
+  <a class = 'navigation' href = "../tutorials/VigenèreCipherTutorial.html" target="_blank"> Cipher Tutorial </a> 
+  </a> <p id = "timer"></p>
 </div>
+
+<div id="vigenereChart">
+	<img src= "http://bestcodes.weebly.com/uploads/2/0/1/9/20195317/3451906_orig.png" width="300" height="250">
+</div>
+
     <div class = "codediv">
       <p class = "code"> dsp </p>
         <form name = "answers" onsubmit='return checkAnswers()'>
@@ -44,5 +44,6 @@
     <a href = 'Mission5.html' id = 'next'>
       Next Mission
     </a>
+    <script src="Mission4.js"></script>
   </body>
 </html>

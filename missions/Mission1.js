@@ -11,7 +11,7 @@ function typeWriter(){
   });
 
   typewriter.typeString('<strong>John Tiltman</strong>:<br>')
-    .typeString('The Soviet Union seems to be planning an invasion on a country in Eastern Europe. They have been communicating with Germany for a week and their messages have been getting more frequent by the day. Whatever the Axis Powers are planning, they will execute soon. Your job is to decrypt the<mark id="code"> monoalphabetic cipher </mark>messages the Soviet Union have been receiving. That is, unless it proves to be too difficult for a woman like you.')
+    .typeString('The Soviet Union seems to be planning an invasion on a country in Eastern Europe. They have been communicating with Germany for a week and their messages have been getting more frequent by the day. Whatever the Axis Powers are planning, they will execute soon. Your job is to decrypt the <mark id="code"> monoalphabetic cipher </mark>messages the Soviet Union have been receiving. That is, unless it proves to be too difficult for a woman like you.')
     .start();
   
 

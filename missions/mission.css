@@ -130,10 +130,21 @@ input[type = 'submit']:hover{
   color:black;
 }
 
-#code1{
-}
+#code1{}
 
 #code2{}
 
-#code3{
+#code3{}
+
+#vigenereChart {
+	position: absolute;
+	right: 3%;
+	display: none;
+	text-align: center;
+	cursor: move;
+	/*left: 50%;
+	top: 50%;*/
+}
+#showChart {
+	cursor: pointer;
 }
