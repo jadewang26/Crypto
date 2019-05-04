@@ -83,7 +83,7 @@ function checkAnswers(){
   var answer1 = answer1.toLowerCase();
   var answer3 = answer3.toLowerCase();
   var falses = 0;
-  if (answer1 == "380 backup u-boats") {
+  if (answer1 == "380 boats") {
     right('code1');
     document.getElementById("code1").disabled = true;
   }
@@ -91,7 +91,7 @@ function checkAnswers(){
     wrong('code1');
     falses += 1;
   }
-  if (answer2 == "arriving in 40 hours") {
+  if (answer2 == "40 hours") {
     right('code2');
     document.getElementById("code2").disabled = true;
     }
