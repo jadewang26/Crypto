@@ -138,12 +138,10 @@ input[type = 'submit']:hover{
 
 #vigenereChart {
 	position: absolute;
-	right: 3%;
+	left: 70%;
 	display: none;
 	text-align: center;
 	cursor: move;
-	/*left: 50%;
-	top: 50%;*/
 }
 #showChart {
 	cursor: pointer;
